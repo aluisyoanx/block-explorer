@@ -40441,26 +40441,8 @@ body {
 }
 
 .slim-logo a {
-  color: #149dcc !important;
+  color: #fff !important;
 }
-
-.nav-link i,
-.tx-primary,
-.statement-link,
-.nav-item.active a,
-.nav-statistics-wrapper .nav:first-child .nav-link {
-  color: #aaa !important;
-}
-
-.statement-link,
-.nav-statistics-wrapper .nav:first-child .nav-link::before {
-  border-color: #149dcc !important;
-}
-
-
-
-
-
 
 .search-box {
   margin-right: 20px;
