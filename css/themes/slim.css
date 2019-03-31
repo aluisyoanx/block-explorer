@@ -40270,10 +40270,10 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 #heightNumber {
   padding: 5px 12px;
   font-weight: normal;
-  color: #FFA500;
+  color: #149dcc;
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #FFA500 !important;
+  border: 1px solid #149dcc !important;
 }
 
 .icon-info {
@@ -40301,7 +40301,7 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 .card-label {
   margin-right: 5px;
   font-weight: bold;
-  color: #FFA500;
+  color: #149dcc;
 }
 
 #blockInfo i,
