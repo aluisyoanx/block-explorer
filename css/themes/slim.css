@@ -40441,7 +40441,7 @@ body {
 }
 
 .slim-logo a {
-  color: #FFA500 !important;
+  color: #149dcc !important;
 }
 
 .nav-link i,
@@ -40454,26 +40454,26 @@ body {
 
 .statement-link,
 .nav-statistics-wrapper .nav:first-child .nav-link::before {
-  border-color: #FFA500 !important;
+  border-color: #149dcc !important;
 }
 
 a {
-  color: #FFA500 !important;
+  color: #149dcc !important;
 }
 
 .rdiobox input[type="radio"]:checked + span::before {
   border-color: transparent;
-  background-color: #FFA500;
+  background-color: #149dcc;
 }
 
 .btn-primary {
   color: #333;
-  background-color: #FFA500;
-  border-color: #FFA500;
+  background-color: #149dcc;
+  border-color: #149dcc;
 }
 
 .search-box .btn {
-  background-color: #FFA500 !important;
+  background-color: #149dcc !important;
 }
 
 .search-box {
@@ -40557,7 +40557,7 @@ a {
 }
 
 .slim-navbar .sub-item ul a:hover {
-  color: #FFA500 !important;
+  color: #149dcc !important;
 }
 
 #toolsNavItem {
