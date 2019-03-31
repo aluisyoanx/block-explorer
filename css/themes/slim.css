@@ -40263,25 +40263,29 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 
 * ***************************************
 */
-.input-group-addon {
-  line-height: 30px;
-  height: 45px;
-  padding: 6px;
-  background-color: #212529;
-  border: 1px solid #495057;
+
+.btn-primary-outline {
+  color: #FFA500;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #FFA500 !important;
 }
 
+.btn-primary-dark {
+  color: #fff;
+  background-color: #20384f !important;
+  border: 1px solid #30516f !important;
+}
 
 #heightNumber {
   padding: 5px 12px;
   font-weight: normal;
+  color: #FFA500;
   text-align: center;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px;
+  border: 1px solid #FFA500 !important;
 }
 
 .icon-info {
-  float: right;
   line-height: 0.6 !important;
 }
 
@@ -40298,15 +40302,21 @@ a.hover-white-8:hover, a.hover-white-8:focus {
   font-size: 11px !important;
 }
 
+.bg-primary-dark {
+  background-color: #343a40 !important;
+  border: 1px solid #212529 !important;
+}
 
 .card-label {
   margin-right: 5px;
   font-weight: bold;
+  color: #FFA500;
 }
 
 #blockInfo i,
 #transactionInfo i {
   margin-right: 5px;
+  color: white;
 }
 
 .card h2,
@@ -40340,6 +40350,8 @@ a.hover-white-8:hover, a.hover-white-8:focus {
   line-height: 30px;
   height: 45px;
   padding: 6px;
+  background-color: #212529;
+  border: 1px solid #495057;
 }
 
 #calcHashDropdown {
@@ -40365,13 +40377,23 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 }
 
 #network-pools {
-  border: 1px;
+  border: 1px solid #343a40;
 }
 
 #network-hash th {
   white-space: nowrap; 
 }
 
+.statement-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #1b84e7 !important;
+  border: 1px solid #1b84e7;
+  width: 200px;
+  padding: 10px 15px;
+}
 
 html { 
   width:100vw;
@@ -40417,6 +40439,51 @@ body {
   max-height: calc(100vh - 250px);
 }
   
+.logoText {
+  border-left: 1px solid #555;
+  padding-left: 10px;
+}
+
+.slim-logo span {
+  color: #868ba1;
+  font-weight: 400;
+}
+
+.slim-logo a {
+  color: #FFA500 !important;
+}
+
+.nav-link i,
+.tx-primary,
+.statement-link,
+.nav-item.active a,
+.nav-statistics-wrapper .nav:first-child .nav-link {
+  color: #aaa !important;
+}
+
+.statement-link,
+.nav-statistics-wrapper .nav:first-child .nav-link::before {
+  border-color: #FFA500 !important;
+}
+
+a {
+  color: #FFA500 !important;
+}
+
+.rdiobox input[type="radio"]:checked + span::before {
+  border-color: transparent;
+  background-color: #FFA500;
+}
+
+.btn-primary {
+  color: #333;
+  background-color: #FFA500;
+  border-color: #FFA500;
+}
+
+.search-box .btn {
+  background-color: #FFA500 !important;
+}
 
 .search-box {
   margin-right: 20px;
@@ -40467,4 +40534,42 @@ body {
     margin-left: 0px;
     margin-top: 10px;
   }
+}
+
+#totalBanked br {
+  display: none;
+}
+
+.dash-market {
+  display: flex;    
+  margin-left: 5px !important;
+}
+
+.info-text {
+  width: 100%;
+}
+
+.icon-info {
+  padding-left: 20px;
+}
+
+#marketcapRank {
+  margin-left: 5px;
+}
+
+.icon-dropdown {
+  margin-right: 10px;
+}
+
+.slim-navbar .sub-item ul a {
+  color: #868ba1 !important;
+}
+
+.slim-navbar .sub-item ul a:hover {
+  color: #FFA500 !important;
+}
+
+#toolsNavItem {
+  border-right: 1px solid #343a40;
+  border-left: 0px none;
 }
