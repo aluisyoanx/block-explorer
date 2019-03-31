@@ -40457,24 +40457,10 @@ body {
   border-color: #149dcc !important;
 }
 
-a {
-  color: #149dcc !important;
-}
 
-.rdiobox input[type="radio"]:checked + span::before {
-  border-color: transparent;
-  background-color: #149dcc;
-}
 
-.btn-primary {
-  color: #333;
-  background-color: #149dcc;
-  border-color: #149dcc;
-}
 
-.search-box .btn {
-  background-color: #149dcc !important;
-}
+
 
 .search-box {
   margin-right: 20px;
@@ -40550,12 +40536,4 @@ a {
 
 .icon-dropdown {
   margin-right: 10px;
-}
-
-
-
-
-#toolsNavItem {
-  border-right: 1px solid #343a40;
-  border-left: 0px none;
 }
