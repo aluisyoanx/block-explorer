@@ -40264,11 +40264,7 @@ a.hover-white-8:hover, a.hover-white-8:focus {
 * ***************************************
 */
 
-.btn-primary-outline {
-  color: #FFA500;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #FFA500 !important;
-}
+
 
 .btn-primary-dark {
   color: #fff;
