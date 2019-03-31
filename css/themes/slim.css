@@ -40552,13 +40552,8 @@ a {
   margin-right: 10px;
 }
 
-.slim-navbar .sub-item ul a {
-  color: #868ba1 !important;
-}
 
-.slim-navbar .sub-item ul a:hover {
-  color: #149dcc !important;
-}
+
 
 #toolsNavItem {
   border-right: 1px solid #343a40;
